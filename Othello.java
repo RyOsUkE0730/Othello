@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Othello {
   public static void main(String[] args){
 
+    //Boardクラスを読み込み
     Board.initialize();
     Board.showBoard();
 
