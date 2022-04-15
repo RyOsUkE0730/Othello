@@ -9,7 +9,7 @@ public class Othello {
     //コンソールからの入力を受け付ける
     Scanner s = new Scanner(System.in);
 
-    //ゲーム実行中フラグがtrueのあいだループする
+    //ゲーム実行中フラグがtrueのあいだループさせる
     while(Board.game){
 
       System.out.print("駒をおくx座標を入力してください:");
