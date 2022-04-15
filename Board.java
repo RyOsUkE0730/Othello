@@ -13,6 +13,7 @@ public class Board {
   static String rev_stone;
 
   static public void initialize() {
+    
   // オセロ版をリセットする処理：for文の入れ子構造
     for (int i = 0; i < 8; i++) {
       for (int j = 0; j < 8; j++) {
