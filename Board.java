@@ -79,7 +79,7 @@ static public void showBoard() {
     if (existempty) {
       System.out.println(stone + "のターンです");
     } else {
-      System.out.println(stone + "ゲーム終了！");
+      System.out.println(stone + "ゲーム終了です！");
       game = false;
     }
   }
