@@ -13,7 +13,7 @@ public class Board {
   static String rev_stone;
 
   static public void initialize() {
-    
+
   // オセロ版をリセットする処理：for文の入れ子構造
     for (int i = 0; i < 8; i++) {
       for (int j = 0; j < 8; j++) {
@@ -47,7 +47,7 @@ static public void showBoard() {
   //オセロ版を描写するプログラム
   int i = 0;
   System.out.println(" |0 |1 |2 |3 |4 |5 |6 |7 |");
-  System.out.println("――――――――――――――");
+  System.out.println("―――――――――――――");
   for (String[] sarr : board) {
 
     System.out.print(i + " |");
