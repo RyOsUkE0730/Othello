@@ -77,7 +77,7 @@ static public void showBoard() {
 
     // 空いている駒があるかで条件分岐
     if (existempty) {
-      System.out.println(stone + "のターンです");
+      System.out.println(stone + "のターンです！");
     } else {
       System.out.println(stone + "ゲーム終了です！");
       game = false;
