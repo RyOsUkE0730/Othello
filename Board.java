@@ -88,7 +88,7 @@ static public void showBoard() {
 
     // 範囲外のX,Y軸を指定した場合
     if (x > 7 || y > 7) {
-      System.out.println("その位置に駒は置けません、、");
+      System.out.println("その位置に駒は置けません");
     }
 
     // 駒を配置できる場合
