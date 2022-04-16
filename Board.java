@@ -98,7 +98,7 @@ static public void showBoard() {
       // 駒をひっくり返す処理
       turnStone(x, y);
 
-      // 次うつ駒の設定
+      // 次に打つ駒の設定
       String next_rev_storn = stone;
       stone = rev_stone;
       rev_stone = next_rev_storn;
