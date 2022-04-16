@@ -126,7 +126,7 @@ static public void showBoard() {
   
     }
 
-  // 全方向分の処理をそれぞれ追加する
+  // 全方向の処理をそれぞれ追加する
     static public void turnLeftUp(int x, int y) {
       if (y > 1 && x > 1) {
   
