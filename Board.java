@@ -145,7 +145,7 @@ static public void showBoard() {
             } else if (board[y - i][x - i].equals(stone)) {
               // 自駒の場合
   
-              // あいだの駒をすべて自駒にひっくりかえす
+              // 間の駒をすべて自駒にひっくりかえす
               for (int t = 1; t < i; t++) {
                 // 配列の要素を上書き
                 board[y - t][x - t] = stone;
