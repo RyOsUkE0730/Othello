@@ -12,10 +12,10 @@ public class Othello {
     //ゲーム実行中フラグがtrueのあいだループさせる
     while(Board.game){
 
-      System.out.print("駒をおくx座標を入力してください:");
+      System.out.print("駒をおくx座標を入力してください！:");
       int x = s.nextInt();
 
-      System.out.print("駒をおくy座標を入力してください:");
+      System.out.print("駒をおくy座標を入力してください！:");
       int y = s.nextInt();
 
       Board.setStone(x, y);
