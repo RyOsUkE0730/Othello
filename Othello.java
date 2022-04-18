@@ -20,10 +20,7 @@ public class Othello {
       int y = s.nextInt();
 
       Board.setStone(x, y);
-
     }
-
     s.close();
   }
-
 }
