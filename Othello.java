@@ -21,6 +21,7 @@ public class Othello {
 
       Board.setStone(x, y);
     }
+    // ゲームの終了
     s.close();
   }
 }
