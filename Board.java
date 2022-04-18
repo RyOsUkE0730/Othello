@@ -1,3 +1,4 @@
+// ゲームのルールや基盤を作るクラス
 public class Board {
   static boolean game = true;
 
