@@ -7,6 +7,7 @@ public class Othello {
     Board.initialize();
     Board.showBoard();
 
+    
     //コンソールからの入力を受け付ける
     Scanner s = new Scanner(System.in);
 
